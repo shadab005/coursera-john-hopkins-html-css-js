@@ -1,0 +1,94 @@
+#header-nav {
+    background-color: rgb(152,153,152);
+    border: 2px black solid;
+    border-radius: 0;
+}
+
+#header-nav .container-fluid {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+#header-nav .navbar-header {
+    padding-bottom: 30px;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  color: #000;
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+div .navbar-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#collapsable-nav {
+    background-color: rgb(152,153,152);
+    margin: -20px;
+}
+
+#nav-list a{
+    text-align: center;
+}
+#nav-list a {
+    font-size: 1.5em;
+    color: #000;
+    background-color: white;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list li {
+    border-bottom: 1px solid #000;   
+}
+
+/* END HEADER */
+
+/* Main */
+
+#main-content .row {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#main-content #main-h1 {
+    text-shadow: 0.5px 0.5px 0.5px #222;
+}
+
+#main-content #main-prow {
+    background-color: rgb(152,153,152);
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 0% 1%;
+}
+
+#main-content #main-prow h3{
+    text-align: center;
+    color: #000;
+}
+#main-content #main-prow p {
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    #main-content #main-prow {
+        margin: 0% 10%;
+    }
+}
